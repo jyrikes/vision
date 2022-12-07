@@ -10,11 +10,12 @@ import Servo
 import Hand as h
 
 ################################
-wCam, hCam = 640, 480
+wCam, hCam = 1200, 1080
 ################################
 cap = cv2.VideoCapture(0)
 cap.set(3, wCam)
 cap.set(4, hCam)
+
 pTime = 0
 detector = htm.handDetector(detectionCon=0.8)
 

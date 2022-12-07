@@ -50,5 +50,5 @@ class Hand():
         length = math.hypot(x2 - x1, y2 - y1)
  
         
-        return(int(length)*1.5)
+        return(int((length/180)*100))
   

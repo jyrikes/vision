@@ -12,5 +12,5 @@ class servo():
 
     def move(self,angle):
         self.board.digital[self.pin].write(angle)
-        time.sleep(0.00015)
+
 
