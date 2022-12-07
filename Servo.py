@@ -3,8 +3,8 @@ import time
 
 class servo():
     def __init__(self,pin,board):
-        board = Arduino(board)
         self.board = board
+        
         self.pin = pin
         board.digital[pin].mode = SERVO
 
